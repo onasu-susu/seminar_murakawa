@@ -1,3 +1,13 @@
+
+# Gitに保存する際の改行コードをすべて LF に統一する設定
+* text=auto
+
+# C#スクリプトやメタファイルなどのテキストファイルを明示的に LF に固定
+*.cs text eol=lf
+*.meta text eol=lf
+*.json text eol=lf
+*.cginc text eol=lf
+*.shader text eol=lf
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.tga filter=lfs diff=lfs merge=lfs -text
